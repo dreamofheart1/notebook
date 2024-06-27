@@ -76,3 +76,4 @@ jna 对象中的对象没有初始化， 在C 中会自动为结构体中的对�
 
 
 
+`jsig`库是Java Signal Chaining的缩写，它是Java虚拟机（JVM）中的一个特性，允许在Java应用程序和本地代码之间共享信号处理程序。这个特性在需要处理POSIX信号（如SIGSEGV、SIGFPE、SIGBUS等）时特别有用，因为它允许Java和本地代码（如使用JNI或JNA调用的C/C++代码）同时处理信号，而不会相互冲突。
